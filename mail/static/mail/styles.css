@@ -1,0 +1,38 @@
+textarea {
+    min-height: 250px;
+    margin-bottom: 10px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(116, 116, 116, 0.7);
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 15px;
+}
+
+.read {
+    background-color: rgba(246, 246, 246, 0.5);
+}
+
+#reply, #arch {
+    margin-top: 8px;
+}
+
+.mail:hover {
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+.head {
+    margin-top: 20vh;
+}
